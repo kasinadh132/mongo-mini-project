@@ -1,0 +1,28 @@
+{
+    "name": "mongomini",
+    "version": "1.0.0",
+    "description": "MongoDB Mini Project",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LambdaSchool/mongo-I-mini.git"
+    },
+    "keywords": [],
+    "author": "Lambda School",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LambdaSchool/mongo-I-mini/issues"
+    },
+    "homepage": "https://github.com/LambdaSchool/mongo-I-mini#readme",
+    "dependencies": {
+        "cors": "^2.8.4",
+        "express": "^4.16.3",
+        "helmet": "^3.12.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.3"
+    }
+}
